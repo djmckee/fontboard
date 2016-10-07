@@ -1,0 +1,33 @@
+div.box {
+    width: 33%;
+    border: 1px black solid;
+    min-width: 200px;
+}
+
+.container {
+    display: inline-flex;
+
+}
+
+div.box > div {
+    margin: 20px;
+
+}
+
+.button {
+    padding: 15px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.italic {
+    font-style: italic;
+}
